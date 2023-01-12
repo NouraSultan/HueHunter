@@ -11,6 +11,16 @@
 		ABC36ACD2970305D00A9FEE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36ACC2970305D00A9FEE8 /* ContentView.swift */; };
 		ABC36ACF2970305E00A9FEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC36ACE2970305E00A9FEE8 /* Assets.xcassets */; };
 		ABC36AD22970305E00A9FEE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC36AD12970305E00A9FEE8 /* Preview Assets.xcassets */; };
+		ABC36ADA297030BE00A9FEE8 /* DraggableColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36AD9297030BE00A9FEE8 /* DraggableColor.swift */; };
+		ABC36ADC297030DC00A9FEE8 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36ADB297030DC00A9FEE8 /* FirstView.swift */; };
+		ABC36ADE297030F400A9FEE8 /* ObjectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36ADD297030F400A9FEE8 /* ObjectContainer.swift */; };
+		ABC36AE02970310D00A9FEE8 /* ObjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36ADF2970310D00A9FEE8 /* ObjectsView.swift */; };
+		ABC36AE22970312700A9FEE8 /* ParticelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36AE12970312700A9FEE8 /* ParticelsView.swift */; };
+		ABC36AE52970314B00A9FEE8 /* Emitters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36AE42970314B00A9FEE8 /* Emitters.swift */; };
+		ABC36AE72970316000A9FEE8 /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36AE62970316000A9FEE8 /* object.swift */; };
+		ABC36AEA2970319300A9FEE8 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36AE92970319300A9FEE8 /* GameViewModel.swift */; };
+		ABC36AEC297031AF00A9FEE8 /* ParticlesEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC36AEB297031AF00A9FEE8 /* ParticlesEmitter.swift */; };
+		ABC36AEF297033B100A9FEE8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC36AF1297033B100A9FEE8 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		ABC36ACC2970305D00A9FEE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABC36ACE2970305E00A9FEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC36AD12970305E00A9FEE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABC36AD9297030BE00A9FEE8 /* DraggableColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableColor.swift; sourceTree = "<group>"; };
+		ABC36ADB297030DC00A9FEE8 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		ABC36ADD297030F400A9FEE8 /* ObjectContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectContainer.swift; sourceTree = "<group>"; };
+		ABC36ADF2970310D00A9FEE8 /* ObjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsView.swift; sourceTree = "<group>"; };
+		ABC36AE12970312700A9FEE8 /* ParticelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticelsView.swift; sourceTree = "<group>"; };
+		ABC36AE42970314B00A9FEE8 /* Emitters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitters.swift; sourceTree = "<group>"; };
+		ABC36AE62970316000A9FEE8 /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
+		ABC36AE92970319300A9FEE8 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		ABC36AEB297031AF00A9FEE8 /* ParticlesEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesEmitter.swift; sourceTree = "<group>"; };
+		ABC36AF0297033B100A9FEE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ABC36AF2297033B400A9FEE8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +56,7 @@
 		ABC36ABE2970305D00A9FEE8 = {
 			isa = PBXGroup;
 			children = (
+				ABC36AF1297033B100A9FEE8 /* Localizable.strings */,
 				ABC36AC92970305D00A9FEE8 /* HueHunter */,
 				ABC36AC82970305D00A9FEE8 /* Products */,
 			);
@@ -51,6 +73,9 @@
 		ABC36AC92970305D00A9FEE8 /* HueHunter */ = {
 			isa = PBXGroup;
 			children = (
+				ABC36AE82970318300A9FEE8 /* ViewModel */,
+				ABC36AE32970313400A9FEE8 /* Model */,
+				ABC36AD82970309F00A9FEE8 /* Views */,
 				ABC36ACA2970305D00A9FEE8 /* HueHunterApp.swift */,
 				ABC36ACC2970305D00A9FEE8 /* ContentView.swift */,
 				ABC36ACE2970305E00A9FEE8 /* Assets.xcassets */,
@@ -65,6 +90,36 @@
 				ABC36AD12970305E00A9FEE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABC36AD82970309F00A9FEE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABC36AD9297030BE00A9FEE8 /* DraggableColor.swift */,
+				ABC36ADB297030DC00A9FEE8 /* FirstView.swift */,
+				ABC36ADD297030F400A9FEE8 /* ObjectContainer.swift */,
+				ABC36ADF2970310D00A9FEE8 /* ObjectsView.swift */,
+				ABC36AE12970312700A9FEE8 /* ParticelsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABC36AE32970313400A9FEE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABC36AE42970314B00A9FEE8 /* Emitters.swift */,
+				ABC36AE62970316000A9FEE8 /* object.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABC36AE82970318300A9FEE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABC36AE92970319300A9FEE8 /* GameViewModel.swift */,
+				ABC36AEB297031AF00A9FEE8 /* ParticlesEmitter.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +164,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = ABC36ABE2970305D00A9FEE8;
 			productRefGroup = ABC36AC82970305D00A9FEE8 /* Products */;
@@ -126,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC36AD22970305E00A9FEE8 /* Preview Assets.xcassets in Resources */,
+				ABC36AEF297033B100A9FEE8 /* Localizable.strings in Resources */,
 				ABC36ACF2970305E00A9FEE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,11 +195,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC36ACD2970305D00A9FEE8 /* ContentView.swift in Sources */,
+				ABC36ADE297030F400A9FEE8 /* ObjectContainer.swift in Sources */,
+				ABC36AE22970312700A9FEE8 /* ParticelsView.swift in Sources */,
+				ABC36AEC297031AF00A9FEE8 /* ParticlesEmitter.swift in Sources */,
+				ABC36ADC297030DC00A9FEE8 /* FirstView.swift in Sources */,
+				ABC36ADA297030BE00A9FEE8 /* DraggableColor.swift in Sources */,
 				ABC36ACB2970305D00A9FEE8 /* HueHunterApp.swift in Sources */,
+				ABC36AE52970314B00A9FEE8 /* Emitters.swift in Sources */,
+				ABC36AE02970310D00A9FEE8 /* ObjectsView.swift in Sources */,
+				ABC36AEA2970319300A9FEE8 /* GameViewModel.swift in Sources */,
+				ABC36AE72970316000A9FEE8 /* object.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABC36AF1297033B100A9FEE8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC36AF0297033B100A9FEE8 /* en */,
+				ABC36AF2297033B400A9FEE8 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ABC36AD32970305E00A9FEE8 /* Debug */ = {
@@ -273,8 +351,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +379,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
